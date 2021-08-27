@@ -1,0 +1,26 @@
+.App {
+    text-align: center;
+    margin:0 auto 50px;
+    max-width: 1000px;
+    width:90%;
+}
+
+.logo{
+    padding: 20px;
+    max-width: 120px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-row-gap: 20px;
+    grid-gap: 20px;
+}
+
+.loadingData{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+}

@@ -1,0 +1,22 @@
+.errorMessage{
+    text-align: center;
+    margin: 10px auto;
+    max-width: 1000px;
+    width: 90%;
+    p{
+        border: 1px solid $dark-red;
+        padding: 10px;
+        color: $dark-red;
+        background-color: #fbf7f7;
+        border-radius: 3px;
+    }
+
+    button{
+        color:$dark-red;
+        border:1px solid $border-gray;
+        border-radius: 20px;
+        background-color: #ffffff;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+}
